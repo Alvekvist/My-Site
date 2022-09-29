@@ -1,0 +1,123 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+hr {
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width: 4%;
+  margin: 100px auto;
+}
+p {
+  line-height: 2
+}
+a:hover {
+  color: #EAF6F6
+}
+/*************************Class selector*****************/
+.top {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle {
+  margin: 100px 0;
+}
+
+.bottom {
+  background-color: #66BFBF;
+  Padding: 50px 0 20px;
+  margin-top: 50px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.btn {
+  background: #6ee0e0;
+  background-image: -webkit-linear-gradient(top, #6ee0e0, #66BFBF);
+  background-image: -moz-linear-gradient(top, #6ee0e0, #66BFBF);
+  background-image: -ms-linear-gradient(top, #6ee0e0, #66BFBF);
+  background-image: -o-linear-gradient(top, #6ee0e0, #66BFBF);
+  background-image: linear-gradient(to bottom, #6ee0e0, #66BFBF);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+.skill-row {
+
+  text-align: left;
+  margin: 100px auto;
+  width: 50%;
+}
+.skillpic {
+  padding-right: 30px;
+  float: left;
+  width: 25%;
+}
+.skillpic2 {
+  float: right;
+  width: 25%
+}
+.profile {
+  margin: auto;
+  width: 30%
+
+}
+.skills {
+  margin-top: 50px;
+}
+.message {
+  width: 40%;
+  margin: 40px auto;
+}
+.copy {
+  color: #EAF6F6;
+}
